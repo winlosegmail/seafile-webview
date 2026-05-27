@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.getSettings().setDomStorageEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("SEU_LINK_AQUI"); // <--- COLOQUE SEU IP/URL AQUI
+        myWebView.loadUrl("64.181.163.15"); // <--- COLOQUE SEU IP/URL AQUI
         setContentView(myWebView);
     }
 }
