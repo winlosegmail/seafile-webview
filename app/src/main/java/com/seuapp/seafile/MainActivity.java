@@ -1,4 +1,4 @@
-package com.seuapp.seafile;
+package com.seafile.app;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.getSettings().setDomStorageEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("64.181.163.15"); // <--- COLOQUE SEU IP/URL AQUI
+        myWebView.loadUrl("http://64.181.163.15"); 
         setContentView(myWebView);
     }
 }
